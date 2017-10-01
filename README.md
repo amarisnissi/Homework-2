@@ -1,6 +1,6 @@
 # Homework-2
 ## 1. Type the following in the command window and submit the results. Briefy explain what each assignment does.
-### >> a = 1
+### >> a = 1 //this sets 'a' as the variable for 1//
 ### >> b = 'x'
 ### >> c = true
 ### >> whos a b c
