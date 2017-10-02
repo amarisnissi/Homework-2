@@ -1,7 +1,7 @@
  ## Homework 2
  ### 1. Type the following in the command window and submit the results. Briefly explain what each assignment does.
  
- |Command   |Description|
+ |Command|Description|
  |---|---|
  |a = 1|This assigns the value for the variable a as the int number 1.|
  |b = 'x'|This assigns the value for the variable b as the char letter 'x'.|
@@ -98,4 +98,15 @@
      2147483647
 
 ### 3. Think about what the results would be for the following expressions, and then type them in to the terminal to verify your answers. Briefly explain the results for each one.
+
+|Command|Description|
+|---|---|
+|1\2|This command gives you 2 divided by 1, which is equal to 2.|
+|1/2|This command gives you 1 divided by 2, which is equal to 0.50000.|
+|int8(1/2)|This command gives you 1 divided by 2 as an 8 bit integer, which is equal to 1 since it rounds any decimal values in converting to an integer of 0.5 or larger into 1.|
+|int8(1/3)|This command givs you 1 divided by 3 as an 8 bit integer, which is equal to 0 since it rounds any decimal values in converting to an integer of 0.49999999 or smaller into 0.|
+|-5^2|This command gives you the value -25 without the parenthesis since PEMDAS defaults to exponents so 5^2 happens first for 25, and then multiply -1 and 25.|
+|(-5)^2|This command gives you the value 25 because PEMDAS does parenthesis first, then exponents and so -5x-5 equals to 25.|
+|10-6/2|This command gives you the value 7 because PEMDAS does division first, then subtraction.|
+|5*4/2*3|This command gives you the value of 30 because PEMDAS, and since multiplication and division hold the same priority, the equation follows the left to right rule and you get 30.|
 
