@@ -1,8 +1,8 @@
  # Homework 2
  ## 1. Type the following in the command window and submit the results. Briefly explain what each assignment does.
  
- |Command|Description|
- |-----|---|
+ |Command   |Description|
+ |---|---|
  |a = 1|This assigns the value for the variable a as the int number 1.|
  |b = 'x'|This assigns the value for the variable b as the char letter 'x'.|
  |c = true|This assigns the value for the variable c as the logical value true.
