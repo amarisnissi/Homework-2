@@ -157,6 +157,10 @@ a
   
   >>0     0     2
 
+### 6.  Download this code. This code is full syntax errors. Fix the errors and submit the corrected code with name script_full_of_errors_fixed.m in your folder for this HW. Explain in front of each corrected MATLAB statement, why the error occurred. Modify the last two variables so that they display as shown. Modify the last line such that for the last line the code displays with the line shown. Explain these results. 
+
+Found on the file [script_full_of_errors_fixed.m](script_full_of_errors_fixed.m).
+
 
 
 
