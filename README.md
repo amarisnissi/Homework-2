@@ -1,8 +1,10 @@
  # Homework 2
  ## 1. Type the following in the command window and submit the results. Briefly explain what each assignment does.
  
+ ### Command              | Response
+ -------------------------|-------------------------------------
  >> a = 1                 | This sets a as the variable for 1.
- -------------------------|--------------------------------------
+ 
  >> b = 'x'                This sets b to be a variable for 'x'.
  
  >> c = true               This sets 'c' to convert numerical values to logicals. Any nonzero element of A is converted to logical 1 (true) and zeros are converted to logical 0 (false). Complex values and NaNs cannot be converted to logical values and result in a conversion error.
