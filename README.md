@@ -1,7 +1,7 @@
  # Homework 2
  ## 1. Type the following in the command window and submit the results. Briefly explain what each assignment does.
  
- ### Command              | Response
+ ### |Command              | Response|
  -------------------------|-------------------------------------
  >> a = 1                 | This sets a as the variable for 1.
  
