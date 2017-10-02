@@ -165,7 +165,7 @@ The last lines are displayed as such since we used the commands disp(); which st
 
 ### 7.  Use MATLAB help to find out how you can create a new directory named mynewdir from MATLAB command line. Then change the working directory the newly created directory. Then create a MATLAB script in this directory named myscript.m with the code provided in it. Now on MATLAB command line, run the script by calling its name. What do you get? Save the output as a figure and submit it with your homework.
 
-![](https://github.com/bomball/ICP2017F/blob/master/Homework/2/Problem%20no%207.png "From Problem No 7") 
+![](https://github.com/amarisnissi/Homework-2/blob/master/Problem%20no%207.png) 
 
 
 
