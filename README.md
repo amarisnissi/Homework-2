@@ -2,7 +2,7 @@
  ## 1. Type the following in the command window and submit the results. Briefly explain what each assignment does.
  
  |Command|Description|
- |---|---|
+ |-----|---|
  |a = 1|This assigns the value for the variable a as the int number 1.|
  |b = 'x'|This assigns the value for the variable b as the char letter 'x'.|
  |c = true|This assigns the value for the variable c as the logical value true.
@@ -17,6 +17,7 @@
  |whos d e f g h|This command allows us to identify characteristics of the output variables d, e, f, g, and h by lists of their sizes, number of bytes, and even attributes(which none of them have).|
  
  The Results: 
+ 
  a =
       1                    
  b =
@@ -24,6 +25,7 @@
  c =
    logical
     1
+    
    Name      Size            Bytes  Class      Attributes
  
    a         1x1                 8  double               
