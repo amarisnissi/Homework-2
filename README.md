@@ -136,9 +136,24 @@
 8. a * d 
 > a * d is dot product multiplication or row-wise which is the same as matrix multiplication when dealing with scalars, so the result would still be [5,0;10,5].
 
-### 5.  Provide three different methods of generating the matrix a, one method should use the diag() function, one should use the eye function, and one should use the zeros function.
+### 5.  Provide three different methods of generating the matrix a; one method should use the diag() function, one should use the eye function, and one should use the zeros function.
 
+Method 1: 
+> a = diag([2,2,2],0) This means the array [2,2,2] should be placed on the major or 0th diagonal of a new array.
 
+Method 2:
+> a = 2* eye([3,3]) This means I construct an 3x3 identity matrix (which has 1's on the major diagonal) and then i multiply every value in the matrix by the scalar quantity 2. 
+
+Method 3:
+> a=zeros(3); a(1,1)=2; a(2,2)=2; a(3,3)=2. This essentially generates a 3x3 matrix full of zeroes and then three elements are changed from 0 to 2.
+
+Results for all methods: 
+
+a
+>a =
+  >>2     0     0
+  >>0     2     0
+  >>0     0     2
 
 
 
