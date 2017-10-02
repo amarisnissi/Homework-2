@@ -15,6 +15,7 @@
  |g = {‘a’ ‘b’ ‘c’ ‘d’}|This command assigns the value for the variable g as a 1x4 cell array for the inputs of the characters a, b, c, d.|
  |h = { a b c d}|This command creates a 1x4 cell array h for the outputs of the previous variables a, b, c, d.|
  |whos d e f g h|This command allows us to identify characteristics of the output variables d, e, f, g, and h by lists of their sizes, number of bytes, and even attributes(which none of them have).|
+ |---|---|
  The Results: 
  a =
       1                    
