@@ -22,7 +22,6 @@
       1                    
  b =
      'x'
-     
  c =
    logical
     1
@@ -60,7 +59,9 @@
  
  ## 2. What would happen if you go beyond the range for a particular type? For example, the largest integer that can be stored in int8 is 127, and the smallest integer is -128, so what would happen if we type cast a larger integer to the type int8? Smaller integer? Use the built-in functions intwine and intmax to find the largest and smallest integers that can be stored in int16 and int32.
  
-  For int16:
+ If you were to cast a larger integer than the maximum value, the integer would just change to the maximum value. For instance, if you were to cast the number 250 to an int8, the integer would just return to its maximum value of 127. The same goes for casting an integer smaller than the minimum value. For instance, if you were to cast the number -456 to an int8, the integer would just return to its minimum value of -128. 
+ 
+  Results for int16:
   
   > intmin('int16')
  
@@ -78,7 +79,7 @@
    
      32767
      
-  For int32:
+  Results for int32:
   
   > intmin('int32')
  
@@ -95,3 +96,4 @@
     int32
   
      2147483647
+
