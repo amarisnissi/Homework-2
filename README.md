@@ -62,4 +62,26 @@ h =
   g         1x4               456  cell                
   h         1x4               491  cell                
 
->> 
+## 2. What would happen if you go beyond the range for a particular type? For example, the largest integer that can be stored in int8 is 127, and the smallest integer is -128, so what would happen if we type cast a larger integer to the type int8? Smaller integer? Use the built-in functions intwine and intmax to find the largest and smallest integers that can be stored in int16 and int32.
+
+For int16:
+
+>> intmin('int16')
+ans =
+  int16
+   -32768
+>> intmax('int16')
+ans =
+  int16
+   32767
+   
+For int32:
+
+>> intmin('int32')
+ans =
+  int32
+   -2147483648
+>> intmax('int32')
+ans =
+  int32
+   2147483647
