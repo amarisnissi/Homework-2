@@ -152,7 +152,9 @@ Results for all methods:
 a
 >a =
   >>2     0     0
+  
   >>0     2     0
+  
   >>0     0     2
 
 
