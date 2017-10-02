@@ -3,27 +3,19 @@
  
  |Command|Description|
  |---|---|
- |a = 1|This sets a as the variable for 1.|
- |b = 'x'|This sets b to be a variable for 'x'.|
- |c = true|This sets 'c' to convert numerical values to logicals. Any nonzero element of A is converted to logical 1 (true) and zeros are converted to logical 0 (false). Complex values and NaNs cannot be converted to logical values and result in a conversion error.|
- 
- |whos a b c|This command allows us to distinguish the size, class, and bytes of the variables.|
- 
- |a == c|This command told us that the variables a and c equaled each other.|
- 
- >> a + c                  This command told us to add the variables together.
- 
- >> d = [1 2 3 4]          This command gave us an array of the numbers 1, 2, 3, 4.
- 
- >> e = ['a' 'b' 'c' 'd']  This command set an array of a, b, c, d.
- 
- >> f = ['abcd']           This command set an array of a, b, c, d.
- 
- >> g = {‘a’ ‘b’ ‘c’ ‘d’}  This command created a 1x4 Cell Array for the inputs of the variables a, b, c, d.
- 
- >> h = { a b c d}         This command created a 1x4 Cell Array for the outputs of the previous variables.
- 
- >> whos d e f g h         This command allows us to view the variables' attributes such as size, bytes, and class. 
+ |a = 1|This assigns the value for the variable a as the int number 1.|
+ |b = 'x'|This assigns the value for the variable b as the char letter 'x'.|
+ |c = true|This assigns the value for the variable c as the logical value true.
+ |whos a b c|This command allows us to identify characteristics of the input variables a, b, and c by lists of their sizes, number of bytes, and even attributes(which none of them have).|
+ |a == c|This command determines if the variables a and c are equal to each other. Since a is equal to the int 1 and c is equal to the logical value true, in a 1x1 array element value the output would come out to logical 1.|
+ |a + c|This command adds the variables a and c together. Since the variables are equal to each other and the first variable was 1 with the second being logical, it would come out to 1+1=2 as the output.|
+ |d = [1 2 3 4]|This command assigns the value for the variable d to a 1x4 array of the numbers 1, 2, 3, 4. Therefore, 4 numbers each with 8 bytes will come out to 4x8=32 bytes.|
+ |e = ['a' 'b' 'c' 'd']|This command assigns the value for the variable e to a 1x4 array of the characters a, b, c, d. Therefore, 4 characters each with 2 bytes will come out to 4x2=8 bytes.|
+ |f = ['abcd']|This command assigns the value for variable f as a 1x4 regular array of characters a, b, c, d.|
+ |g = {‘a’ ‘b’ ‘c’ ‘d’}|This command assigns the value for the variable g as a 1x4 cell array for the inputs of the characters a, b, c, d.|
+ |h = { a b c d}|This command creates a 1x4 cell array h for the outputs of the previous variables a, b, c, d.|
+ |whos d e f g h|This command allows us to identify characteristics of the output variables d, e, f, g, and h by lists of their sizes, number of bytes, and even attributes(which none of them have).|
+ The Results: 
  a =
       1                    
  b =
