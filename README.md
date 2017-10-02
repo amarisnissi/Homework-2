@@ -119,4 +119,11 @@
 
 ### 4.(b) What is the result of each of the following expressions? Briefly explain what MATLAB is doing for each operation. 
 
-
+1. a + b
+2. a .* b
+3. a * b
+4. a * c
+5. a + c
+6. a + d
+7. a .* d
+8. a * d 
