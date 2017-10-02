@@ -22,6 +22,7 @@
       1                    
  b =
      'x'
+     
  c =
    logical
     1
@@ -61,7 +62,7 @@
  
   For int16:
   
-  >> intmin('int16')
+  > intmin('int16')
  
   ans =
  
@@ -69,7 +70,7 @@
    
      -32768
    
-  >> intmax('int16')
+  > intmax('int16')
  
   ans =
  
@@ -79,7 +80,7 @@
      
   For int32:
   
-  >> intmin('int32')
+  > intmin('int32')
  
   ans =
  
@@ -87,7 +88,7 @@
    
      -2147483648
    
-  >> intmax('int32')
+  > intmax('int32')
  
   ans =
  
