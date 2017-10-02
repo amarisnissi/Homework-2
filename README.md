@@ -120,6 +120,7 @@
 ### 4.(b) What is the result of each of the following expressions? Briefly explain what MATLAB is doing for each operation. 
 
 1. a + b
+- Using the variables from part (a), a + b gives a 2x2 array adding each element from the array a with that of the array b so that a + b = [1,0;2,1] + [-1,0;2,1] = [0,0;4,2] 
 2. a .* b
 3. a * b
 4. a * c
