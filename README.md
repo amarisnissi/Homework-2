@@ -161,6 +161,11 @@ a
 
 Found on the file [script_full_of_errors_fixed.m](script_full_of_errors_fixed.m).
 
+The last lines are displayed as such since we used the commands disp(); which stands for display with the content written inside the parenthesis being what is to be displayed. 
+
+### 7.  Use MATLAB help to find out how you can create a new directory named mynewdir from MATLAB command line. Then change the working directory the newly created directory. Then create a MATLAB script in this directory named myscript.m with the code provided in it. Now on MATLAB command line, run the script by calling its name. What do you get? Save the output as a figure and submit it with your homework.
+
+![Problem 7](/images/Problem_7.png)
 
 
 
