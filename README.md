@@ -120,12 +120,19 @@
 ### 4.(b) What is the result of each of the following expressions? Briefly explain what MATLAB is doing for each operation. 
 
 1. a + b
-> Using the variables from part (a), a + b gives a 2x2 array adding each element from the array a with that of the array b so that a + b = [1,0;2,1] + [-1,0;2,1] = [0,0;4,2] 
+> Using the variables from part (a), a + b gives a 2x2 array adding each element from the array a with that of the array b so that a + b = [1,0;2,1] + [-1,0;2,1] = [0,0;4,2].
 2. a .* b
-> 
+> a .* b gives a 2x2 array from multiplying each element in the row of the matrix a with each element in the column of matrix b, which is essentially how matrix multiplication works. The final answer is therefore [-1,0;4,1].
 3. a * b
+> a * b gives a 2x2 array from multiplying both arrays elementwise or in a dot product manner, so that you would multiply the row of a with the row of b, thus getting the answer [-1,0; 0,1].
 4. a * c
+> a * c has the variable a as a 2x2 array while c is a 2x1 array, so the final result is a 2x1 array. It starts out with the first row of each array, and multiplies the first element of a with the first element of c and adds that to the second element of a with the first element of c which goes into the result, then it proceeds to the next row. The answer is [3;8].
 5. a + c
+> a + c is adding two arrays of different sizes but it gives the final result as a 2x2 array. It adds the first column of a with the only column of c, which becomes the first column of the result, then it adds the second column of a with the only column of c to get the second column for the result which is [4,4; 3,3].
 6. a + d
+> a + d is adding two arrays of different sizes, but because d is just a number it increments each element in the array a by the value d which is 5, so every value in the array a is added by 5 to create the resultant [6,5;7,6].
 7. a .* d
+> a .* d is matrix multiplication so the rows of a are multiplied by the columns of d, but since d has only element it would be simply Scalar Multiplication so each element in a is multiplied by d(which is 5) so the result is [5,0;10,5].
 8. a * d 
+> a * d is dot product multiplication or row-wise which is the same as matrix multiplication when dealing with scalars, so the result would still be [5,0;10,5].
+
