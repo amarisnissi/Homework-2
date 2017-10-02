@@ -110,3 +110,13 @@
 |10-6/2|This command gives you the value 7 because PEMDAS does division first, then subtraction.|
 |5*4/2*3|This command gives you the value of 30 because PEMDAS, and since multiplication and division hold the same priority, the equation follows the left to right rule and you get 30.|
 
+### 4.(a) Define the following variables:
+
+- For variable a, a={1,0;2,1} which has a 2x2 array with 4 numbers. Each element is 8 bytes respectfully, therefore 4x8=32 bytes of data.
+- For variable b, b={-1,2;0,1} which also has a 2x2 array as variable a.
+- For variable c, c={3;2} which is a 2x1 array.
+- For variable d, d={5} which is a 1x1 array of an 8 bit number.
+
+### 4.(b) What is the result of each of the following expressions? Briefly explain what MATLAB is doing for each operation. 
+
+
