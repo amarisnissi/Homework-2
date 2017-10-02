@@ -1,5 +1,5 @@
 # Homework-2
-## 1. Type the following in the command window and submit the results. Briefy explain what each assignment does.
+## 1. Type the following in the command window and submit the results. Briefly explain what each assignment does.
 ### >> a = 1 this sets 'a' as the variable for 1
 ### >> b = 'x'
 ### >> c = true
@@ -15,4 +15,4 @@
 ### a = 1
 ###  >> b = 'x'
 ###  ↑
-### Error: Unexpected MATLAB operator. 
+Error: Unexpected MATLAB operator. 
