@@ -136,3 +136,13 @@
 8. a * d 
 > a * d is dot product multiplication or row-wise which is the same as matrix multiplication when dealing with scalars, so the result would still be [5,0;10,5].
 
+### 5.  Provide three different methods of generating the matrix a, one method should use the diag() function, one should use the eye function, and one should use the zeros function.
+
+
+
+
+
+
+
+
+
