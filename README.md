@@ -3,15 +3,13 @@
  
  |Command|Description|
  |---|---|
- >> a = 1                 | This sets a as the variable for 1.
+ |a = 1|This sets a as the variable for 1.|
+ |b = 'x'|This sets b to be a variable for 'x'.|
+ |c = true|This sets 'c' to convert numerical values to logicals. Any nonzero element of A is converted to logical 1 (true) and zeros are converted to logical 0 (false). Complex values and NaNs cannot be converted to logical values and result in a conversion error.|
  
- >> b = 'x'                This sets b to be a variable for 'x'.
+ |whos a b c|This command allows us to distinguish the size, class, and bytes of the variables.|
  
- >> c = true               This sets 'c' to convert numerical values to logicals. Any nonzero element of A is converted to logical 1 (true) and zeros are converted to logical 0 (false). Complex values and NaNs cannot be converted to logical values and result in a conversion error.
- 
- >> whos a b c             This command allows us to distinguish the size, class, and bytes of the variables.
- 
- >> a == c                 This command told us that the variables a and c equaled each other.
+ |a == c|This command told us that the variables a and c equaled each other.|
  
  >> a + c                  This command told us to add the variables together.
  
