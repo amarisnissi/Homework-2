@@ -1,6 +1,8 @@
 # Homework-2
 ## 1. Type the following in the command window and submit the results. Briefly explain what each assignment does.
+
 >> a = 1                  This sets 'a' as the variable for 1.
+
 >> b = 'x'                This did not set 'b' to be a variable for 'x' and caused an error.
 >> c = true               This sets 'c' 
 >> whos a b c
