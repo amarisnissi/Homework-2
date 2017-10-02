@@ -67,21 +67,35 @@ h =
 For int16:
 
 >> intmin('int16')
+
 ans =
+
   int16
+  
    -32768
+   
 >> intmax('int16')
+
 ans =
+
   int16
+  
    32767
    
 For int32:
 
 >> intmin('int32')
+
 ans =
+
   int32
+  
    -2147483648
+   
 >> intmax('int32')
+
 ans =
+
   int32
+  
    2147483647
